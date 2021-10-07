@@ -1,0 +1,10 @@
+INSTALLATION GUIDE
+
+Source Code Package
+
+1. Copy the tar file to your Linux server.
+2. Type "tar -xvzf Chat_Alpha_src.tar.gz"
+3. Type "cd Chat_Alpha_src"
+4. Type "make"
+5. Type "cd bin"
+6. You can now view your .bin files

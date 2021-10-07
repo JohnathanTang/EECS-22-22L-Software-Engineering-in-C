@@ -1,0 +1,69 @@
+1. e4     e5 
+2. d3     d6 
+3. h5     d7 
+4. f7+     e8 
+1. e4     b6 
+2. d3     a6 
+3. h5     e5 
+4. f7+     f7 
+5. h3     g6 
+6. o-o     1. e4     e5 
+2. d4     c6 
+3. h5     d5 
+4. f7+     e8 
+5. e8#     1. e4     b5 
+2. e5     d5 
+3. h3     b4 
+4. d6     d6 
+5. c4     c3 
+1. e4     b6 
+2. e5     d5 
+3. e2     b5 
+4. d6     1. e4     Ra8 
+2. h3     Ra8 
+3. g3     Ra8 
+4. g3     Ra8 
+5. g4     Ra8 
+6. f5     Ra8 
+7. g4     Ra8 
+8. g5     Ra8 
+9. d5     Ra8 
+10. g6     Ra8 
+11. e3     Ra8 
+12. c4     Ra8 
+13. b5     Ra8 
+14. d6     Ra8 
+15. c3     Ra8 
+16. a4     Ra8 
+1. e4     1. e4     Ra8 
+2. d4     Ra8 
+3. c4     Ra8 
+4. h3     Ra8 
+5. h5     Ra8 
+6. f7#     1. e4     e5 
+2. c4     c6 
+3. h5     f6 
+4. e8#     1. e4     1. e4     Ra8 
+2. d4     Ra8 
+3. c4     Ra8 
+4. h5     Ra8 
+5. f7#     1. e4     e5 
+2. c4     c6 
+3. h5     b6 
+4. f7#     1. e4     Ra8 
+2. d4     Ra8 
+3. h5     Ra8 
+4. c4     Ra8 
+5. h3     Ra8 
+6. g2     Ra8 
+7. h1     Ra8 
+8. f3     Ra8 
+9. h5     Ra8 
+10. f7#     1. e4     e5 
+2. d4     c6 
+3. h5     a6 
+4. c4     d4 
+5. f7#     1. e4     e5 
+2. c4     c6 
+3. h5     a6 
+4. f7#     

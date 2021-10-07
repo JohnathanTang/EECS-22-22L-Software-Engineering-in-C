@@ -1,0 +1,21 @@
+1/23: Bryan -	Check King moves, Black King, 8x8 board, Basic out of bounds error msg, select/deselect move, side colors, renamed game
+1/24: Roy   - 	started the title screen, successfully loaded up an image on the "title screen"
+1/26: Bryan -	reformatted code, move works for all pieces now, all images added as temp, removed error msg, renamed files
+1/26: Roy   - 	reformatted code since photo takes up the entire "1 widget rule" for gtk, started using containers
+1/27: Bryan -	added brown border around board, added temporary promotion signaler, pieces disappear when "taken", bugfixed turn signaler and deselect, created macro for board size
+1/27: Roy   -   learned boxes and how to utilize boxes to customize the title screen
+1/30: Bryan -	added turn counter, adjusted code to match teammates, added square color for each individual piece
+1/30: Roy   -   buttons are functional, had trouble with flags but working on it
+1/31: Bryan -	got GUI to work alongside main code. reformatted: init() resetBoard(), added new functions to determine square color, fixed square color for board, added int[8][8] array to map gui to code. reformatted gui so that it displays movements from int array and code is no longer on gui
+2/02: Roy   -   code could now open two windows. the title screen closes and will need to initialize game mode and the difficulty, etc.
+2/02: Bryan -	changed names of files. deleted unnecessary code. added comments.
+2/03: Roy   -   both mains are working and linked. need to link with the main functions and the initialize function.
+2/04: Bryan -	added side numbering and check square (top right). added working promo
+2/04: B/R   -	linked both codes and have a working gui. tuned some code out like button functions. need to wait for teammates to finish up their code to link all together
+2/05: Roy   -   changed window size to minimize the blank space of GUI, added the undo button and a new game button, added 4OUR logo on the lower left
+2/05: Bryan -	changed color of board for visibility. coded possibility for loadGame(). reset() function added to start a new game. added loadGame
+2/06: Roy   -   added functionality for resign and offer draw buttons. message dialog pop ups are now supported and verifies if the user meant to hit the button by asking a yes or no question
+2/06: Bryan -	coded resign and offer draw buttons. fixed new game button & added pop ups with choice selector. FIXED load, board resets correctly
+2/08: Bryan -	fixed resign and offer draw functions (prior - exited the program regardless of user input
+2/09: Bryan -	linked GUI and base code, alot of bugs. changed Move.c line 40. added GUISTUFF.h
+2/10: Bryan -	bug fixed GUI when check occurs. White King can only be checkmated. checkmate does not work for black side. Kings can move next to eachother (ILLEGAL MOVE)

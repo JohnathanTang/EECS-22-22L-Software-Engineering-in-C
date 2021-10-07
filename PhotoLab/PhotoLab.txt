@@ -1,0 +1,20 @@
+
+First Name: Johnathan
+Last Name: Tang
+UCI Student ID#: 63061294
+
+	As we've done for the previous PhotoLab assignemnts, this third version is constructed using structs and pointers versus two dimensional RGB arrays. Also, instead of 
+	reading a static size of an image, this itteration of PhotoLab will be able to read images dynamically. The reason we want to use structs and pointers is to further 
+	modulate the program. It is much easier to debug and keep track of the operations of each functions such as CreateImage, DeleteImage, Set/Get Pixels and reading height 
+	and width. Furthermore, we are practicing allocating and deallocating memory when creating these images using malloc and free. Valgrind is a very usefull tool to help 
+	track memory leaks and errors. 
+
+	As far as our new functions, we added Saturate, Resize, and Rotate. Saturate is much like Black and White but instead of bringing the RGB pixels to a common greyscale, 
+	we are instead moving away from Black and White colors. By subtracting the RGB(greyscale) from the original RGB, what remains is the intensified version of colors and 
+	when we apply the percentage of saturation, we can multiply the new result by the percentage and apply it to the image. To resize the image, we take an input from user 
+	( 1- 500 ) and apply the ratio to the new image. For example, if the user enters "200" the newly created image will be a 2 to 1 ratio of the original. To do this I 
+	first created an entirely new image with the dimensions based on the percentage the user inputs. Then, I transfered each pixel of the original image to the newly 
+	created by either duplicating or "scaling down" the pixels based on percentage input. Rotate has 4 options, horizontal flip, vertical flip, rotate clockwise and 
+	counterclockwise. For horizontal and vertical flip, I imaged the image as two halves. The function reads and writes one half on the image to the opposite side 
+	(backwards order) while replacing it with the opposite (backwards order). To rotate the image, we want to flip the dimensions of the original image before writing it's 
+	new content. The functions copies the original image's pixels and writes to the new image in it's new orientation.  

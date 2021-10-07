@@ -1,0 +1,19 @@
+
+First name: Johnathan 
+Last name: Tang
+UCI Student ID#: 63061294
+
+
+This program is a C program representation of the famous board game Connect 4. The objective of the game is to connect four consecutive player markers in either the horizontal,
+vertical, or horizontal direction. The board itself is a 6 by 7 grid as each player takes turn strategically placing their markers in any column. Also, there is an ANVIL 
+implementation of the game which shares most properties of the normal game except with ANVIL, each player will have one ANVIL chip per game to use. The ANVIL will clear every 
+marker in the column that the player chooses to place and will sit at the bottom of the column. If the second player to use their ANVIL chip in the same column that the first
+one is alreadyy placed, it will simply stack on top of the first one. Neither ANVIL chips will be counted as a marker for either players to connect their four. 
+
+As far as how I programmed the game, I created multiple functions to carry out specific tasks of the game. First, the user will be prompted to a menu in which they can choose
+which variation of the game they would like to play (Normal, ANVIL, Colored Normal, and Colored ANVIL). Depending on which game they choose, the corresponding function will 
+be called. Within all game functions are ultimately set to first prompt the user which column they would like to place their marker. The function then goes through a series 
+of conditioning check to see if the column they select is full or empty. After each player's input, the function will call to a series of function to check win conditions. Once
+any one of four win conditions finds consecutive fours in any direction, the function declares the winner of the game. For the ANVIL iteration, if the user wants to use their 
+ANVIL chip, they must first select '8' followed by the column number they want to place it in. I've set counters for both players so that each player will be limited to one 
+ANVIL chip per game.  

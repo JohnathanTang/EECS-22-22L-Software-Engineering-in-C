@@ -1,0 +1,10 @@
+INSTALLATION GUIDE
+
+
+User/Customer Package
+
+1. Copy the tar file to your Linux server.
+2. Type "tar -xvzf Chat_Alpha.tar.gz"
+3. Type "cd Chat_Alpha"
+4. Type "cd bin"
+5. Type "./chat"

@@ -1,0 +1,137 @@
+Client To Server
+
+$login
+$end
+$register
+$chat(space)(forward username)
+$playchess(space)(Forwardusername)
+$image(space)(forward username)
+$addfriend(space)(forward username)
+
+
+Server To Client
+
+$loginS
+$loginF
+$registerS
+$registerF
+$addfriendS
+$addfriendF
+$friendlist
+$playchess(space)(senderusername)
+$chat(space)(senderusername)
+$image(space)(senderusername)
+$end
+
+
+login:
+	Client:
+		$login
+		Username
+		Password
+
+	Server(succeed):
+		$loginS
+	Server(fail):
+		$loginF
+		reason
+
+		
+		
+		
+		
+register:
+	Client:
+		$register
+		Username
+		Password
+
+	Server(succeed):
+		$registerS
+	Server(fail):
+		$registerF
+		reason
+
+
+		
+		
+		
+		
+		
+addfriend:
+	Client:
+		$addfriend(space)(forward username)
+	Server(succeed):
+		$addfriendS
+	Server(fail):
+		$addfriendF
+		reason
+
+send friendlist:
+	Server:
+		$friendlist
+		Friend1
+		"0" for offline, "1" for online
+		Friend2
+		"0" for offline, "1" for online
+		Friend3
+		"0" for offline, "1" for online
+		...
+		$end
+
+
+	
+	
+text:
+	Client:
+		$chat(space)(forward username)
+		Message
+	Server:
+		$chat(space)(senderusername)
+		Message
+
+
+
+image:
+	Client:
+		$image(space)(forward username)
+		image flow
+		image flow
+		image flow 
+		$end
+	Server:
+		$image(space)(senderusername)
+		image flow
+		image flow
+		image flow
+		$end
+		
+chess:
+	Client:
+		$playchess(space)(Forwardusername)
+		move
+		move
+		move
+		$end
+	Server:
+		$playchess(space)(senderusername)
+		move
+		move
+		move
+		$end
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
